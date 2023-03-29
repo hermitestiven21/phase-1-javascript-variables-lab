@@ -31,7 +31,7 @@ describe('index.js', function () {
       expect(companyCeo).to.equal('Susan Smith');
     });
 
-    it('is defined using let', function () {
+   it('is defined using let', function () {
       expect(js).to.match(/let companyCeo/, "Expected companyCeo to be defined using let");
     });
   });
